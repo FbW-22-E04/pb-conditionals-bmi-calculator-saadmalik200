@@ -24,7 +24,7 @@ console.log(
 //Q5 Create an *if* statement which prints the name and BMI of the person with the highest BMI.
 
 if (markBMI > johnBMI) {
-  console.log(markBMI.toFixed(2));
+  console.log("Q5: Mark", markBMI.toFixed(2));
 } else {
-  console.log(johnBMI.toFixed(2));
+  console.log("Q5: John", johnBMI.toFixed(2));
 }
